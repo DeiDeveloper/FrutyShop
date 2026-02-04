@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrutyShop | Tienda virtual de tecnología</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">FrutyShop</div>
+      <ul class="nav-links">
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <span class="badge">Tecnología para tu día a día</span>
+      <h1>FrutyShop: conecta con el futuro desde Paraguay</h1>
+      <p>Tu tienda virtual de confianza para gadgets, accesorios y tecnología esencial al mejor precio en guaraníes.</p>
+      <div class="hero-actions">
+        <a class="primary" href="#productos">Explorar productos</a>
+        <a class="secondary" href="#contacto">Hablar con ventas</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="ofertas" class="section highlights">
+      <div>
+        <h2>Ofertas destacadas</h2>
+        <p>Beneficios pensados para compras rápidas y seguras.</p>
+      </div>
+      <div class="highlight-grid">
+        <article>
+          <h3>Envíos rápidos</h3>
+          <p>Recibe tus pedidos en tiempo récord dentro de Paraguay.</p>
+        </article>
+        <article>
+          <h3>Pago seguro</h3>
+          <p>Opciones de pago confiables y soporte personalizado.</p>
+        </article>
+        <article>
+          <h3>Soporte experto</h3>
+          <p>Te ayudamos a elegir la mejor tecnología para tu rutina.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="productos" class="section products">
+      <div class="section-header">
+        <h2>Productos recomendados</h2>
+        <p>Selecciona lo que necesitas y agrega al carrito en un clic.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-product="Auriculares inalámbricos Pro" data-price="185000">
+          <h3>Auriculares inalámbricos Pro</h3>
+          <p>Sonido envolvente, batería de larga duración y estuche compacto.</p>
+          <span class="price">₲ 185.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+        <article class="product-card" data-product="Teclado mecánico RGB" data-price="320000">
+          <h3>Teclado mecánico RGB</h3>
+          <p>Switches táctiles, iluminación personalizable y diseño gamer.</p>
+          <span class="price">₲ 320.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+        <article class="product-card" data-product="Smartwatch Active" data-price="410000">
+          <h3>Smartwatch Active</h3>
+          <p>Seguimiento de salud, notificaciones y resistencia al agua.</p>
+          <span class="price">₲ 410.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+        <article class="product-card" data-product="Power bank 20.000 mAh" data-price="250000">
+          <h3>Power bank 20.000 mAh</h3>
+          <p>Carga rápida USB-C para mantenerte siempre conectado.</p>
+          <span class="price">₲ 250.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+        <article class="product-card" data-product="Mouse ergonómico" data-price="145000">
+          <h3>Mouse ergonómico</h3>
+          <p>Precisión y comodidad para jornadas largas de trabajo.</p>
+          <span class="price">₲ 145.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+        <article class="product-card" data-product="Parlante Bluetooth Urban" data-price="275000">
+          <h3>Parlante Bluetooth Urban</h3>
+          <p>Potencia tu música con bajos profundos y diseño portátil.</p>
+          <span class="price">₲ 275.000</span>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cart" id="carrito">
+      <div class="section-header">
+        <h2>Tu carrito</h2>
+        <p>Revisa tu selección y confirma el pedido.</p>
+      </div>
+      <div class="cart-panel">
+        <ul id="cart-items" class="cart-items">
+          <li class="empty">Aún no agregaste productos.</li>
+        </ul>
+        <div class="cart-summary">
+          <div>
+            <span>Total:</span>
+            <strong id="cart-total">₲ 0</strong>
+          </div>
+          <div class="cart-actions">
+            <a id="cart-email" class="primary" href="mailto:correo@frutyshop.com">Enviar pedido por correo</a>
+            <a id="cart-whatsapp" class="secondary" href="https://wa.me/595XXXXXXXXX" target="_blank" rel="noreferrer">Enviar pedido por WhatsApp</a>
+          </div>
+          <p class="hint">Actualiza el correo y WhatsApp con los datos reales de FrutyShop.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about">
+      <div>
+        <h2>Sobre FrutyShop</h2>
+        <p>Somos una tienda virtual enfocada en tecnología accesible, con atención personalizada y entregas confiables en Paraguay.</p>
+        <ul>
+          <li>Garantía local y asesoría para cada compra.</li>
+          <li>Catálogo en constante actualización con marcas top.</li>
+          <li>Atención rápida por redes sociales y mensajería.</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <h3>Nuestro compromiso</h3>
+        <p>Ofrecer experiencias tecnológicas memorables con procesos simples y seguros.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="section-header">
+        <h2>Contacto</h2>
+        <p>Deja tus datos y te contactamos en minutos.</p>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <h3>Correo</h3>
+          <p>correo@frutyshop.com</p>
+          <p class="hint">Reemplaza con el correo oficial.</p>
+        </div>
+        <div>
+          <h3>WhatsApp</h3>
+          <p>+595 XXX XXX XXX</p>
+          <p class="hint">Reemplaza con el número oficial.</p>
+        </div>
+        <div>
+          <h3>Redes sociales</h3>
+          <p>@frutyshop (Instagram)</p>
+          <p class="hint">Espacio para tus redes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 FrutyShop. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
